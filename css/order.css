@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: aquamarine;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    background-color: greenyellow;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+    transition: all 1s ease;
+}
+a:hover {
+    background-color: green;
+    padding: 10px 30px;
+    color: whitesmoke;
+}
+.main {
+    margin-right: 50px;
+}
+.home {
+    margin-left: 50px;
+}
+h3 {
+    margin-top:40px ;
+    font-weight: bold;
+}
